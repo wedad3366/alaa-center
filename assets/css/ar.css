@@ -62,7 +62,6 @@ header h1 b {
     border-radius: 30px;
     text-decoration: none;
     font-weight: 500;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease;
     font-size: 14px;
 }
