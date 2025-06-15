@@ -251,6 +251,11 @@ footer .icons li {
         font-family: "Cairo", sans-serif;
     }
 
+         .contact-info {
+        width: 50%;
+     }
+
+
 
     footer {
         padding: 60px 15px;
