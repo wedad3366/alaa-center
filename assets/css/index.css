@@ -409,7 +409,10 @@ footer .icons a i {
     h5,
     h6,
     p,
-    small {
+    small,
+     .whatsapp-fixed,
+    span,
+    .whatsapp-fixed-AR{
         overflow-y: hidden;
     }
 
