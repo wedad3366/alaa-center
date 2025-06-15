@@ -255,15 +255,41 @@ footer .icons li {
      }
 
 
-
-    footer {
-        padding: 60px 15px;
-    }
-
     footer h6 {
         font-weight: 700;
         font-size: 16px;
          padding-bottom: 5px;
+    }
+
+        
+    .whatsapp-fixed-AR {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+    }
+
+    .whatsapp-fixed-AR a {
+        display: flex;
+        align-items: center;
+        background-color: #12803a;
+        color: #fff;
+        padding: 10px 15px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: 400;
+        transition: background-color 0.3s ease;
+        font-size: 14px;
+    }
+
+    .whatsapp-fixed-AR a:hover {
+        background-color: #1da851;
+    }
+
+    .whatsapp-fixed-AR img {
+        width: 20px;
+        height: 20px;
+        margin-left: 5px;
     }
 
 }
