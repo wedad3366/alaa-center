@@ -1,0 +1,622 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden !important;
+}
+
+.pc {
+    display: block;
+}
+
+.mob {
+    display: none;
+}
+
+/*-----------header------------*/
+
+header {
+    position: relative;
+}
+
+.header-content {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 10px;
+    z-index: 9999;
+}
+
+.header-title {
+    position: absolute;
+    top: 25%;
+    left: 6%;
+    z-index: 9999;
+}
+
+header h1 {
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    line-height: 5rem;
+    font-size: 60px;
+    color: #fff;
+}
+
+header h1 b {
+    color: #105c9c;
+}
+
+header img {
+    width: 100%;
+}
+
+header .flag {
+    width: 24px;
+    height: 24px;
+}
+
+header .lang-box small {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0px 4px;
+}
+
+header .small-header {
+    padding: 0px 30px;
+}
+
+/*
+header .icons li a {
+    font-size: 16px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+header .icons li a:hover {
+    color: #105c9c;
+}
+*/
+
+/*-----------about------------*/
+
+.about {
+    margin-top: 50px;
+}
+
+.about small {
+    color: #105c9c;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.about h2 {
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    line-height: 3.2rem;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 30px;
+    width: 90%;
+    margin-top: 10px;
+    text-transform: capitalize;
+    color: #3d3d3d;
+    font-weight: 400;
+}
+
+.about video {
+    width: 100%;
+}
+
+/*-----------services------------*/
+
+.services {
+    margin-top: 50px;
+    padding: 40px 0px;
+    background-color: #eff8ff;
+}
+
+.services small {
+    color: #105c9c;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.services h2 {
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    line-height: 3.2rem;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+
+/* Style the buttons */
+.services .buttonser {
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    margin: 0px 15px 0px 0px;
+    text-transform: capitalize;
+}
+
+/* Add a grey background color on mouse-over */
+.services .buttonser:hover {
+    background-color: #dce8f3;
+}
+
+/* Add a dark background color to the active button */
+.services .buttonser.active-proj {
+    background-color: #105c9c;
+    color: white;
+}
+
+.services .row-proj {
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.services .column-proj {
+    width: 48%;
+    display: none;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    /* Hide columns by default */
+}
+
+.services .column-proj .sec-one {
+    width: 65%;
+    margin: auto;
+}
+
+.services .column-proj .sec-two {
+    width: 30%;
+}
+
+.services .column-proj .sec-two img {
+    width: 100%;
+}
+
+.services h3 {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.services .show {
+    display: block;
+}
+
+/*-----------steps------------*/
+
+.steps {
+    margin-top: 50px;
+}
+
+.steps h2 {
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    line-height: 3.2rem;
+    font-size: 40px;
+}
+
+.steps img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.steps h4 {
+    color: #000;
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.steps p {
+    font-size: 18px;
+    font-weight: 300;
+    width: 80%;
+}
+
+/*-----------contact------------*/
+
+.contact {
+    margin-top: 50px;
+}
+
+h5 {
+    font-family: 'Georgia', serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 55px;
+}
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Georgia', serif;
+}
+
+.line-arrow {
+    display: flex;
+    align-items: center;
+    animation: subtleMove 1.9s infinite ease-in-out;
+}
+
+
+@keyframes subtleMove {
+
+    0%,
+    100% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(7px);
+    }
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.contact-info a {
+    display: block;
+    font-size: 30px;
+    color: #000;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+
+/*-----------footer------------*/
+
+footer {
+    margin-top: 50px;
+    padding: 40px 0px;
+    background-color: #eff8ff;
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 0px !important;
+}
+
+footer h6 {
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+footer ul li {
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+footer ul li a {
+    color: #000;
+    font-weight: 300;
+    font-size: 14px;
+    margin-left: 3px;
+    text-decoration: none;
+}
+
+footer .icons {
+    display: flex;
+    justify-content: start;
+}
+
+footer .icons li {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+footer .icons a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+footer .icons a i {
+    background-color: #000;
+    width: 40px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+/*-----------fixed------------*/
+
+.whatsapp-fixed {
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+    z-index: 9999;
+}
+
+.whatsapp-fixed a {
+    display: flex;
+    align-items: center;
+    background-color: #12803a;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.whatsapp-fixed a:hover {
+    background-color: #1da851;
+}
+
+.whatsapp-fixed img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width:1000px) {
+    * {
+        overflow-x: hidden !important;
+    }
+
+    .flag,
+    a,
+    i,
+    ul,
+    li,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    small {
+        overflow-y: hidden;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .mob {
+        display: block;
+    }
+
+    /*-----------header------------*/
+
+    .header-content {
+        padding: 2px;
+    }
+
+    .header-title {
+        top: 18%;
+    }
+
+    header h1 {
+        line-height: 2.8rem;
+        font-size: 30px;
+        width: 90%;
+    }
+
+    header .lang-box small {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    header .small-header {
+        padding: 0px 10px;
+    }
+
+    /*-----------about------------*/
+
+
+    .about {
+        padding: 15px;
+    }
+
+    .about h2 {
+        line-height: 2.7rem;
+        font-size: 30px;
+    }
+
+    .about p {
+        width: 100%;
+    }
+
+    .about video {
+        width: 100%;
+    }
+
+
+    /*-----------services------------*/
+
+    .services {
+        padding: 15px;
+    }
+
+
+    .services h2 {
+        line-height: 2.7rem;
+        font-size: 30px;
+    }
+
+
+    /* Style the buttons */
+    .services .buttonser {
+        padding: 8px 12px;
+        font-size: 14px;
+        margin: 5px;
+    }
+
+
+    /* Create three equal columns that floats next to each other */
+    .services .column-proj {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0px;
+        /* Hide columns by default */
+    }
+
+
+    .services h3 {
+        text-transform: capitalize;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .services p {
+        font-size: 14px;
+    }
+
+    .services ul {
+        padding-left: 0px;
+    }
+
+    .services ul li {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .services .show {
+        display: block;
+    }
+
+
+    /*-----------steps------------*/
+
+    .steps {
+        padding: 15px;
+    }
+
+    .steps h2 {
+        line-height: 2.7rem;
+        font-size: 30px;
+    }
+
+    .steps h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .steps p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .steps .box {
+        flex-direction: column-reverse;
+    }
+
+    /*-----------steps------------*/
+
+    .contact {
+        padding: 15px;
+    }
+
+    h5 {
+        font-size: 30px;
+        line-height: 2.7rem;
+    }
+
+
+    .contact-info p {
+        font-size: 16px;
+    }
+
+    .contact-info a {
+        font-size: 18px;
+    }
+
+    /*-----------footer------------*/
+
+    footer {
+        padding: 40px 15px;
+        text-align: center;
+    }
+
+
+    footer .icons {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer h6 {
+        margin-top: 0px;
+    }
+
+
+    /*-----------fixed------------*/
+
+    .whatsapp-fixed {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        z-index: 9999;
+    }
+
+    .whatsapp-fixed a {
+        display: flex;
+        align-items: center;
+        background-color: #12803a;
+        color: #fff;
+        padding: 10px 15px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: 400;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease;
+        font-size: 14px;
+    }
+
+    .whatsapp-fixed a:hover {
+        background-color: #1da851;
+    }
+
+    .whatsapp-fixed img {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+
+
+}

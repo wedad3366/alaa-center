@@ -1,0 +1,264 @@
+.rtl {
+    direction: rtl;
+}
+
+body {
+    font-family: "Cairo", sans-serif;
+}
+
+header h1 {
+    font-family: "Cairo", sans-serif;
+    letter-spacing: 0px;
+    line-height: 6rem;
+    font-weight: 700;
+}
+
+.header-title {
+    position: absolute;
+    top: 15%;
+    right: 32%;
+}
+
+header h1 b {
+    margin-right: 60px;
+}
+
+.pc {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    /* درجة التعتيم: 0.5 = 50% */
+    z-index: 1;
+}
+
+/* تأكد إن الصورة تحت الطبقة */
+.pc img {
+    position: relative;
+    z-index: 0;
+}
+
+/*-----------fixed------------*/
+
+.whatsapp-fixed-AR {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.whatsapp-fixed-AR a {
+    display: flex;
+    align-items: center;
+    background-color: #12803a;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.whatsapp-fixed-AR a:hover {
+    background-color: #1da851;
+}
+
+.whatsapp-fixed-AR img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+/*-----------about------------*/
+
+.about h2 {
+    font-family: "Cairo", sans-serif;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.about p {
+    width: 100%;
+}
+
+.about small {
+    color: #105c9c;
+    font-weight: 700;
+}
+
+/*-----------services------------*/
+
+
+.services small {
+    color: #105c9c;
+    font-weight: 700;
+}
+
+.services h2 {
+    font-family: "Cairo", sans-serif;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+
+/* Style the buttons */
+.services .buttonser {
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    padding: 10px 18px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    margin: 0px 15px 0px 0px;
+    text-transform: capitalize;
+}
+
+.services .column-proj {
+    float: right;
+}
+
+.services .column-proj ul {
+    font-family: "Cairo", sans-serif;
+}
+
+.services .column-proj ul li {
+    margin: 5px 0px;
+}
+
+/*-----------steps------------*/
+
+.steps h2 {
+    font-family: "Cairo", sans-serif;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.steps h4 {
+    font-weight: 500;
+}
+
+.steps p {
+    font-weight: 400;
+    width: 90%;
+}
+
+
+/*-----------contact------------*/
+
+h5 {
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 20px;
+    font-family: "Cairo", sans-serif;
+}
+
+/*-----------footer------------*/
+
+footer p {
+    font-weight: 500;
+}
+
+footer h6 {
+    font-weight: 600;
+}
+
+
+footer ul li a {
+    font-weight: 400;
+    margin-right: 3px;
+}
+
+footer .icons li {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:1000px) {
+
+    /*-----------header------------*/
+
+    .header-title {
+        top: 18%;
+        right: 25%;
+    }
+
+    header h1 b {
+        margin-right: 25px;
+    }
+
+    header h1 {
+        line-height: 3rem;
+        font-size: 30px;
+        width: 100%;
+    }
+
+
+    /*-----------about------------*/
+
+    .about h2 {
+        font-size: 20px;
+    }
+
+    /*-----------services------------*/
+
+    .services h2 {
+        font-size: 20px;
+        line-height: 2rem;
+    }
+
+
+    /* Style the buttons */
+    .services .buttonser {
+        padding: 8px 16px;
+        margin: 0px 5px 0px 0px;
+    }
+
+    /*-----------steps------------*/
+
+    .steps h2 {
+        font-size: 20px;
+        line-height: 2rem;
+    }
+
+    .steps p {
+        width: 100%;
+    }
+
+    /*-----------contact------------*/
+
+    h5 {
+        font-size: 28px;
+    }
+
+    .contact-info p {
+        font-size: 16px;
+        font-family: "Cairo", sans-serif;
+    }
+
+
+    footer {
+        padding: 60px 15px;
+    }
+
+    footer h6 {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+}
