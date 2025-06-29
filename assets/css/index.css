@@ -233,12 +233,13 @@ header .icons li a:hover {
 }
 
 .services h4 a{
-    color: #000;
-    font-size: 28px;
+    color: #105c9c;
+    font-size: 30px;
     line-height: 36px;
     font-weight: 600;
     text-transform: capitalize;
     text-decoration: none;
+      font-family: 'Georgia', serif;
 }
 
 
