@@ -232,6 +232,14 @@ header .icons li a:hover {
     font-weight: 500;
 }
 
+.services h4 a{
+    color: #000;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+}
 
 
 /*-----------steps------------*/
